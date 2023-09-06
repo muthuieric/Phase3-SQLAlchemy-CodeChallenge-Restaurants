@@ -110,3 +110,4 @@ class Review(Base):
 # # Get the restaurants reviewed by the customer
 # restaurants = customer.restaurants()
 
+session.query(Customer).first().restaurants
